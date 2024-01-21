@@ -86,8 +86,11 @@ events_list = events
 # Loop through each event
 for event in events_list:
     sessions = sessions_available(YEAR, event)
+    if event == "Russian Grand Prix":
+        sessions = ["Practice 1", "Practice 2", "Qualifying", "Race"]
+    if event == "Saudi Arabian Grand Prix":
+        sessions = ["Practice 1", "Practice 2", "Practice 3","Qualifying", "Race"] # removing
     
-
     for session in sessions:
         fastest_lap_dict = fastest_lap(YEAR, event, session)
 
