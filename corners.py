@@ -6,30 +6,30 @@ import utils
 YEAR = 2021
 
 events = [
-    'Bahrain Grand Prix', 
+  #   'Bahrain Grand Prix', 
 
-  'Emilia Romagna Grand Prix', 
-    'Portuguese Grand Prix',
+  # 'Emilia Romagna Grand Prix', 
+  #   'Portuguese Grand Prix',
     
-    # 'Spanish Grand Prix', 
+    'Spanish Grand Prix', 
     
-    'Monaco Grand Prix', 
-    'Azerbaijan Grand Prix', 'French Grand Prix', 'Styrian Grand Prix',
-    'Austrian Grand Prix', 'British Grand Prix', 'Hungarian Grand Prix', 
-    'Belgian Grand Prix', 'Dutch Grand Prix', 'Italian Grand Prix',
-    'Russian Grand Prix', 'Turkish Grand Prix', 
-    'United States Grand Prix',
-    'Mexico City Grand Prix', 
-    'São Paulo Grand Prix', 'Qatar Grand Prix', 
-    'Saudi Arabian Grand Prix', 'Abu Dhabi Grand Prix', 
+    # 'Monaco Grand Prix', 
+    # 'Azerbaijan Grand Prix', 'French Grand Prix', 'Styrian Grand Prix',
+    # 'Austrian Grand Prix', 'British Grand Prix', 'Hungarian Grand Prix', 
+    # 'Belgian Grand Prix', 'Dutch Grand Prix', 'Italian Grand Prix',
+    # 'Russian Grand Prix', 'Turkish Grand Prix', 
+    # 'United States Grand Prix',
+    # 'Mexico City Grand Prix', 
+    # 'São Paulo Grand Prix', 'Qatar Grand Prix', 
+    # 'Saudi Arabian Grand Prix', 'Abu Dhabi Grand Prix', 
 ]
-# sessions = [
-#     "Practice 1",
-#       "Practice 2",
-#       "Practice 3",
-#       # "Qualifying",
-#       # "Race",
-# ]
+sessions = [
+    "Practice 1",
+      "Practice 2",
+      "Practice 3",
+      "Qualifying",
+      "Race",
+]
 
 def sessions_available(year: int, event: str | int) -> any:
     # get sessions available for a given year and event
@@ -114,7 +114,7 @@ def get_circuit_info(*, year: int, circuit_key: int):
     return circuit_info
 
 for event in events:
-    sessions = utils.get_sessions(YEAR, event)
+    # sessions = utils.get_sessions(YEAR, event)
     for session in sessions:
         f1session = fastf1.get_session(YEAR, event, session)
         f1session.load()
