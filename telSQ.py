@@ -56,10 +56,7 @@ class TelemetryExtractor:
         self.events = events or [
  'Saudi Arabian Grand Prix', 
     'Spanish Grand Prix',  
-    'Styrian Grand Prix',
     
-    'Turkish Grand Prix', 
-    'United States Grand Prix',
     
       
      
