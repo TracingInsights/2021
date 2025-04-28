@@ -57,10 +57,10 @@ class TelemetryExtractor:
 
             
     # 'Emilia Romagna Grand Prix', 
-    #  'French Grand Prix',
-    # 'Hungarian Grand Prix', 
+     'French Grand Prix',
+    'Hungarian Grand Prix', 
     # # 'Italian Grand Prix',
-    'Mexico City Grand Prix', 
+    # 'Mexico City Grand Prix', 
             
     # 'Monaco Grand Prix',
     # 'Portuguese Grand Prix',
