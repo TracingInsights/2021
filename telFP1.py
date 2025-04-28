@@ -56,7 +56,7 @@ class TelemetryExtractor:
     #  'Dutch Grand Prix',
 
             
-    'Emilia Romagna Grand Prix', 
+    # 'Emilia Romagna Grand Prix', 
     #  'French Grand Prix',
     # 'Hungarian Grand Prix', 
     # # 'Italian Grand Prix',
