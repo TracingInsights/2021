@@ -1,1 +1,1 @@
-{"time": ["None", 80.873, "None"], "lap": [1.0, 2.0, 3.0], "compound": ["SOFT", "SOFT", "SOFT"]}
+{"time": ["None", 80.873, "None"], "lap": [1.0, 2.0, 3.0], "compound": ["SOFT", "SOFT", "SOFT"], "stint": [1, 1, 1], "s1": ["None", 27.837, 27.837], "s2": [39.738, 30.266, "None"], "s3": [24.308, 22.77, "None"], "life": [1, 2, 3], "pos": ["None", "None", "None"], "status": ["1", "12", "25"], "pb": [false, true, false]}

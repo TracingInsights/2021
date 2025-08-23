@@ -61,22 +61,22 @@ class TelemetryExtractor:
                 #  'Dutch Grand Prix',
                 # 'Russian Grand Prix',
                 # 'Turkish Grand Prix',
-                'United States Grand Prix',
-            #     'Mexico City Grand Prix',
-            #     'Qatar Grand Prix',
-            #     'Saudi Arabian Grand Prix',
+                # 'United States Grand Prix',
+                # 'Mexico City Grand Prix',
+                # 'Qatar Grand Prix',
+                # 'Saudi Arabian Grand Prix',
             # 'Abu Dhabi Grand Prix',
             # "British Grand Prix",
             # "Italian Grand Prix",
-            # "São Paulo Grand Prix",
+            "São Paulo Grand Prix",
         ]
         self.sessions = sessions or [
             "Practice 1",
             "Practice 2",
-            "Practice 3",
+            # "Practice 3",
             "Qualifying",
             "Race",
-            # "Sprint Qualifying",
+            "Sprint Qualifying",
         ]
 
     def get_session(
