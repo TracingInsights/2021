@@ -52,8 +52,8 @@ TARGET_EVENT_NAMES_LIST = [
 
 #sprints below
 # 'British Grand Prix',
-'Italian Grand Prix',
-#  'São Paulo Grand Prix', 
+# 'Italian Grand Prix',
+ 'São Paulo Grand Prix', 
 ]
 if len(TARGET_EVENT_NAMES_LIST) != 1:
     raise ValueError(
