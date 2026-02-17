@@ -42,7 +42,7 @@ TARGET_EVENT_NAMES_LIST = [
 #     'Mexico City Grand Prix', 
 #     'Monaco Grand Prix',
 #     'Portuguese Grand Prix',
-    'Qatar Grand Prix', 
+    # 'Qatar Grand Prix', 
 #     'Russian Grand Prix',
 #     'Saudi Arabian Grand Prix', 
 #     'Spanish Grand Prix',  
@@ -51,7 +51,7 @@ TARGET_EVENT_NAMES_LIST = [
 #     'United States Grand Prix',
 
 #sprints below
-# 'British Grand Prix',
+'British Grand Prix',
 # 'Italian Grand Prix',
 #  'São Paulo Grand Prix', 
 ]
@@ -74,9 +74,9 @@ AVAILABLE_SESSIONS = [
 TARGET_SESSIONS = [
     "Practice 1",
     "Practice 2",
-    "Practice 3",
+    # "Practice 3",
     "Qualifying",
-    # "Sprint Qualifying",
+    "Sprint Qualifying",
     # "Sprint",
     "Race",
 ]

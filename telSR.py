@@ -43,7 +43,7 @@ TARGET_EVENT_NAMES_LIST = [
 #     'Monaco Grand Prix',
 #     'Portuguese Grand Prix',
 #     'Qatar Grand Prix', 
-    'Russian Grand Prix',
+    # 'Russian Grand Prix',
 #     'Saudi Arabian Grand Prix', 
 #     'Spanish Grand Prix',  
 #     'Styrian Grand Prix',   
@@ -52,7 +52,7 @@ TARGET_EVENT_NAMES_LIST = [
 
 #sprints below
 # 'British Grand Prix',
-# 'Italian Grand Prix',
+'Italian Grand Prix',
 #  'São Paulo Grand Prix', 
 ]
 if len(TARGET_EVENT_NAMES_LIST) != 1:
@@ -74,9 +74,9 @@ AVAILABLE_SESSIONS = [
 TARGET_SESSIONS = [
     "Practice 1",
     "Practice 2",
-    "Practice 3",
+    # "Practice 3",
     "Qualifying",
-    # "Sprint Qualifying",
+    "Sprint Qualifying",
     # "Sprint",
     "Race",
 ]
