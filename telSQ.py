@@ -51,8 +51,8 @@ TARGET_EVENT_NAMES_LIST = [
 #     'United States Grand Prix',
 
 #sprints below
-'British Grand Prix',
-# 'Italian Grand Prix',
+# 'British Grand Prix',
+'Italian Grand Prix',
 #  'São Paulo Grand Prix', 
 ]
 if len(TARGET_EVENT_NAMES_LIST) != 1:
@@ -1019,4 +1019,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
