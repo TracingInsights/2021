@@ -46,14 +46,14 @@ TARGET_EVENT_NAMES_LIST = [
 #     'Russian Grand Prix',
 #     'Saudi Arabian Grand Prix', 
 #     'Spanish Grand Prix',  
-    'Styrian Grand Prix',   
+    # 'Styrian Grand Prix',   
 #     'Turkish Grand Prix', 
 #     'United States Grand Prix',
 
 #sprints below
 # 'British Grand Prix',
 # 'Italian Grand Prix',
-#  'São Paulo Grand Prix', 
+ 'São Paulo Grand Prix', 
 ]
 if len(TARGET_EVENT_NAMES_LIST) != 1:
     raise ValueError(
@@ -72,14 +72,12 @@ AVAILABLE_SESSIONS = [
 ]
 # Select one or more sessions from AVAILABLE_SESSIONS.
 TARGET_SESSIONS = [
-    "Practice 1",
-    "Practice 2",
-    "Practice 3",
-    "Qualifying",
-    # "Sprint Qualifying",
-    # "Sprint",
-    "Race",
-]
+        "Practice 1",
+        "Qualifying",
+        "Practice 2",
+        "Sprint Qualifying",
+        "Race",
+    ]
 invalid_target_sessions = sorted(set(TARGET_SESSIONS) - set(AVAILABLE_SESSIONS))
 if invalid_target_sessions:
     raise ValueError(
